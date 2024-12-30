@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Karting Rosario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Karting</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Novedades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ubicacion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Nosotros</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div id="Inicio" class="row align-items-center hero">
+            <div class="col-lg-3 offset-lg-2">
+                <p>Rosario, Santa Fe</p>
+                <h1>Karting Racing</h1>
+                <p>Vive la emoción de las carreras en nuestro circuito de karting indoor!</p>
+            </div>
+        </div>
+    </div>
+    <div class="row my-3">
+        <div id="Categorias" class="col-md-5 offset-md-2 py-3">
+            <h2>Categorias</h2>
+            <ul class="lista-categorias">
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="images/kartingniño.jpeg"></a>Niños</li>
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="images/karts2.jpeg"></a>De 10 a 18 años</li>
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="images/karts3.jpeg"></a>Adultos</li>
+            </ul>
+        </div>
+    </div>    
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="model-title" id="exampleModalLabel">Kartings</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>Desde los 8 años en adelante</h3>
+                    <p>Veni a probarlos y disfruta de la adrenalina!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 my-3">
+        <div class="rounded py-5 testimonios">
+            <h2 class="text-center"> Testimonios</h2>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="testimonio">
+                        <h5>Los mejores kartings de la provincia!</h5>
+                        <p>Francisco, 35 años</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="testimonio">
+                        <h5>Son muy rapidos!</h5>
+                        <p>Mateo, 12 años</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="testimonio">
+                        <h5>Para compartir con amigos!</h5>
+                        <p>Juana, 18 años</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </div>
+    <footer>
+        <p class="text-center">Diseñado por: Bautista Gomez 2024</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
